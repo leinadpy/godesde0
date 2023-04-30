@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/leinadpy/godesde0/ejercicios"
 )
 
@@ -26,7 +24,14 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s \n", os)
 	// }
-	numero, respuesta := ejercicios.DevuelveString("102")
-	fmt.Println("El número convertido es", numero)
-	fmt.Println("La respuesta es", respuesta)
+
+	// numero, respuesta := ejercicios.DevuelveString("102")
+	// fmt.Println("El número convertido es", numero)
+	// fmt.Println(respuesta)
+
+	// teclado.IngresoNumeros()
+
+	// iteraciones.Iterar()
+
+	ejercicios.TablaMultiplicar()
 }
