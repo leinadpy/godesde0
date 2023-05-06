@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leinadpy/godesde0/ejercicios"
+	"github.com/leinadpy/godesde0/files"
 )
 
 func main() {
@@ -33,5 +33,9 @@ func main() {
 
 	// iteraciones.Iterar()
 
-	ejercicios.TablaMultiplicar()
+	// fmt.Println(ejercicios.TablaMultiplicar())
+
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	files.LeoArchivo()
 }
